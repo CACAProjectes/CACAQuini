@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <dimen name="labelForm">3mm</dimen>
+        <dimen name="valueForm">3mm</dimen>
+        <dimen name="labelButton">3mm</dimen>
+        <dimen name="textQuiniela">2.2mm</dimen>
+        <dimen name="estatQuiniela">3mm</dimen>
+        <dimen name="TitolJornada">3mm</dimen>
+        <dimen name="marginTopJorn">10.25mm</dimen>
+        <dimen name="marginTop">9.5mm</dimen>
+        <dimen name="marginBottom">7mm</dimen>
+        <dimen name="fabCustomSize">6mm</dimen>
+    </resources>

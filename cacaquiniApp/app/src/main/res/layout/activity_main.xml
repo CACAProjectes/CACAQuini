@@ -1,0 +1,2646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clQuini"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fons_blau3"
+    android:padding="1sp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="5sp"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:contentDescription="@string/fab_jornada_refresh"
+        android:cropToPadding="false"
+        app:fabCustomSize="50dp"
+        app:maxImageSize="50dp"
+        app:srcCompat="@android:drawable/ic_menu_rotate"
+        app:useCompatPadding="false" />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llCapcalera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="2sp">
+
+            <LinearLayout
+                android:id="@+id/llLogo"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="horizontal"
+                android:padding="2sp">
+                <ImageView
+                    android:id="@+id/ivLogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/ic_logo_round" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCapcaleraSup"
+                android:layout_width="280sp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvTitol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="start|center_vertical"
+                    android:padding="2sp"
+                    android:text="@string/titolApp"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvNomUsuari"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="right|bottom"
+                    android:padding="2sp"
+                    android:text="@string/nom_usuari"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llFoto"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="horizontal"
+                android:padding="2sp">
+                <ImageView
+                    android:id="@+id/ivUsuari"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/ic_usuari_foreground" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llSubCapcalera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/fons_blau1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvSubCapcalera1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/fons_blau5"
+                android:gravity="start"
+                android:padding="2sp"
+                android:text="@string/premis_quinielas"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textQuiniela" />
+
+            <TextView
+                android:id="@+id/tvSubCapcalera2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/fons_blau5"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:maxLines="1"
+                android:paddingEnd="4sp"
+                android:text="@string/saldo_quantitat"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/saldo_positiu"
+                android:textSize="@dimen/textQuiniela"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSubCapcaleraPerc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/color_percentatge"
+                android:gravity="center_horizontal"
+                android:maxLines="1"
+                android:padding="2sp"
+                android:text="@string/percentatge_cero"
+                android:textAppearance="?android:attr/textAppearanceLargeInverse"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/textQuiniela"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSubCapcalera1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:paddingLeft="4sp"
+                android:text="@string/saldo_disponible"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textQuiniela" />
+
+            <TextView
+                android:id="@+id/tvSubCapcalera2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:maxLines="1"
+                android:padding="2sp"
+                android:text="@string/saldo_quantitat"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/saldo_positiu"
+                android:textSize="@dimen/textQuiniela"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llJornada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:padding="1sp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/fabJornadaAnt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#3F51B5"
+                app:srcCompat="@android:drawable/ic_media_rew" />
+
+            <TextView
+                android:id="@+id/fabJornadaActual"
+                android:layout_width="275sp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/fons_blau2"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/text_jornada"
+                android:textColor="@color/black"
+                android:textSize="@dimen/TitolJornada"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/fabJornadaSeg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#3F51B5"
+                app:srcCompat="@android:drawable/ic_media_ff" />
+        </LinearLayout>
+
+        <TableLayout
+            android:id="@+id/idTablaQuini"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/fons_blau3">
+
+            <TableRow
+                android:id="@+id/idTablaLiniaQuin1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llLinea1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="2sp">
+
+                    <TextView
+                        android:id="@+id/tvCol11"
+                        android:layout_width="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:gravity="center_horizontal"
+                        android:padding="2sp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol12"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:ellipsize="end"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:singleLine="true"
+                        android:text="0 - 0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol14"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="X"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol17a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/res_acertat"
+                        android:fontFamily="monospace"
+                        android:paddingLeft="10sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="10sp"
+                        android:paddingBottom="2sp"
+                        android:text="@string/marcador_prov"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTablaLiniaQuin2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llLinea2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="2sp">
+
+                    <TextView
+                        android:id="@+id/tvCol21"
+                        android:layout_width="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:gravity="center_horizontal"
+                        android:padding="2sp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol22"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="0 - 0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol24"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="X"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol27a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/res_acertat"
+                        android:fontFamily="monospace"
+                        android:paddingLeft="10sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="10sp"
+                        android:paddingBottom="2sp"
+                        android:text="@string/marcador_prov"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTablaLiniaQuin3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llLinea3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="2sp">
+
+                    <TextView
+                        android:id="@+id/tvCol31"
+                        android:layout_width="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:gravity="center_horizontal"
+                        android:padding="2sp"
+                        android:text="3"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol32"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="0 - 0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol34"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol36"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="X"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol37"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol37a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol38"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/res_acertat"
+                        android:fontFamily="monospace"
+                        android:paddingLeft="10sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="10sp"
+                        android:paddingBottom="2sp"
+                        android:text="@string/marcador_prov"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTablaLiniaQuin4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llLinea4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="2sp">
+
+                    <TextView
+                        android:id="@+id/tvCol41"
+                        android:layout_width="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:gravity="center_horizontal"
+                        android:padding="2sp"
+                        android:text="4"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol42"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="0 - 0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol44"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol46"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="X"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol47"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol47a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol48"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/res_acertat"
+                        android:fontFamily="monospace"
+                        android:paddingLeft="10sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="10sp"
+                        android:paddingBottom="2sp"
+                        android:text="@string/marcador_prov"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTablaLiniaQuin5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llLinea5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="2sp">
+
+                    <TextView
+                        android:id="@+id/tvCol51"
+                        android:layout_width="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:gravity="center_horizontal"
+                        android:padding="2sp"
+                        android:text="5"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol52"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol53"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="0 - 0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol54"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol55"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol56"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="X"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol57"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol57a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol58"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/res_acertat"
+                        android:fontFamily="monospace"
+                        android:paddingLeft="10sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="10sp"
+                        android:paddingBottom="2sp"
+                        android:text="@string/marcador_prov"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTablaLiniaQuin6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llLinea6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="2sp">
+
+                    <TextView
+                        android:id="@+id/tvCol61"
+                        android:layout_width="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:gravity="center_horizontal"
+                        android:padding="2sp"
+                        android:text="6"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol62"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol63"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="0 - 0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol64"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol65"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol66"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="X"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol67"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol67a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol68"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/res_acertat"
+                        android:fontFamily="monospace"
+                        android:paddingLeft="10sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="10sp"
+                        android:paddingBottom="2sp"
+                        android:text="@string/marcador_prov"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTablaLiniaQuin7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llLinea7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="2sp">
+
+                    <TextView
+                        android:id="@+id/tvCol71"
+                        android:layout_width="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:gravity="center_horizontal"
+                        android:padding="2sp"
+                        android:text="7"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol72"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol73"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="0 - 0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol74"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol75"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol76"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="X"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol77"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol77a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol78"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/res_acertat"
+                        android:fontFamily="monospace"
+                        android:paddingLeft="10sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="10sp"
+                        android:paddingBottom="2sp"
+                        android:text="@string/marcador_prov"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTablaLiniaQuin8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llLinea8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="2sp">
+
+                    <TextView
+                        android:id="@+id/tvCol81"
+                        android:layout_width="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:gravity="center_horizontal"
+                        android:padding="2sp"
+                        android:text="8"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol82"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol83"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="0 - 0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol84"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol85"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol86"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="X"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol87"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol87a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol88"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/res_acertat"
+                        android:fontFamily="monospace"
+                        android:paddingLeft="10sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="10sp"
+                        android:paddingBottom="2sp"
+                        android:text="@string/marcador_prov"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTablaLiniaQuin9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llLinea9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="2sp">
+
+                    <TextView
+                        android:id="@+id/tvCol91"
+                        android:layout_width="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:gravity="center_horizontal"
+                        android:padding="2sp"
+                        android:text="9"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol92"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol93"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="0 - 0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol94"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol95"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol96"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="X"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol97"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol97a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol98"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/res_acertat"
+                        android:fontFamily="monospace"
+                        android:paddingLeft="10sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="10sp"
+                        android:paddingBottom="2sp"
+                        android:text="@string/marcador_prov"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTablaLiniaQuin10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llLinea10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="2sp">
+
+                    <TextView
+                        android:id="@+id/tvCol101"
+                        android:layout_width="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:gravity="center_horizontal"
+                        android:padding="2sp"
+                        android:text="10"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol102"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol103"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="0 - 0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol104"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol105"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol106"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="X"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol107"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol107a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol108"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/res_acertat"
+                        android:fontFamily="monospace"
+                        android:paddingLeft="10sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="10sp"
+                        android:paddingBottom="2sp"
+                        android:text="@string/marcador_prov"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTablaLiniaQuin11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llLinea11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="2sp">
+
+                    <TextView
+                        android:id="@+id/tvCol111"
+                        android:layout_width="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:gravity="center_horizontal"
+                        android:padding="2sp"
+                        android:text="11"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol112"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol113"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="0 - 0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol114"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol115"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="X"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol117"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol117a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol118"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/res_acertat"
+                        android:fontFamily="monospace"
+                        android:paddingLeft="10sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="10sp"
+                        android:paddingBottom="2sp"
+                        android:text="@string/marcador_prov"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTablaLiniaQuin12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llLinea12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="2sp">
+
+                    <TextView
+                        android:id="@+id/tvCol121"
+                        android:layout_width="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:gravity="center_horizontal"
+                        android:padding="2sp"
+                        android:text="12"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol122"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol123"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="0 - 0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol124"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol125"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol126"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="X"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol127"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol127a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol128"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/res_acertat"
+                        android:fontFamily="monospace"
+                        android:paddingLeft="10sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="10sp"
+                        android:paddingBottom="2sp"
+                        android:text="@string/marcador_prov"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTablaLiniaQuin13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llLinea13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="2sp">
+
+                    <TextView
+                        android:id="@+id/tvCol131"
+                        android:layout_width="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:gravity="center_horizontal"
+                        android:padding="2sp"
+                        android:text="13"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol132"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol133"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="0 - 0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol134"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol135"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol136"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="X"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol137"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol137a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol138"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/res_acertat"
+                        android:fontFamily="monospace"
+                        android:paddingLeft="10sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="10sp"
+                        android:paddingBottom="2sp"
+                        android:text="@string/marcador_prov"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTablaLiniaQuin14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llLinea14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="2sp">
+
+                    <TextView
+                        android:id="@+id/tvCol141"
+                        android:layout_width="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:gravity="center_horizontal"
+                        android:padding="2sp"
+                        android:text="14"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol142"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol143"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="0 - 0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol144"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol145"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol146"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="X"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol147"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol147a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol148"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/res_acertat"
+                        android:fontFamily="monospace"
+                        android:paddingLeft="10sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="10sp"
+                        android:paddingBottom="2sp"
+                        android:text="@string/marcador_prov"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTablaLiniaQuin15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="8"
+                android:background="@color/fons_blau1"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/tvCol151"
+                    android:layout_width="25sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/fons_blau1"
+                    android:gravity="start"
+                    android:paddingLeft="25sp"
+                    android:text="@string/ple_15"
+                    android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTablaLiniaQuin15a"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llLinea15a"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="2sp">
+
+                    <TextView
+                        android:id="@+id/tvCol15a1"
+                        android:layout_width="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:gravity="center_horizontal"
+                        android:padding="2sp"
+                        android:text="15"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15a2"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15a3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15a4"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15a5a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15a5b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15a6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15a7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="M"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15a7a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15a8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/res_acertat"
+                        android:fontFamily="monospace"
+                        android:paddingLeft="10sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="10sp"
+                        android:paddingBottom="2sp"
+                        android:text="@string/marcador_prov"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTablaLiniaQuin15b"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llLinea15b"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="2sp">
+
+                    <TextView
+                        android:id="@+id/tvCol15b1"
+                        android:layout_width="25sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:padding="2sp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15b2"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:padding="2sp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15b3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15b4"
+                        android:layout_width="110sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15b5a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="0"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15b5b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15b6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15b7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/fons_blau5"
+                        android:paddingLeft="5sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="5sp"
+                        android:paddingBottom="2sp"
+                        android:text="M"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15b7a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="2sp"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvCol15b8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/res_acertat"
+                        android:fontFamily="monospace"
+                        android:paddingLeft="10sp"
+                        android:paddingTop="2sp"
+                        android:paddingRight="10sp"
+                        android:paddingBottom="2sp"
+                        android:text="@string/marcador_prov"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/llSeparador"
+            android:layout_width="match_parent"
+            android:layout_height="5sp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llSaldos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/fons_blau1"
+            android:orientation="horizontal"
+            android:padding="2sp">
+
+            <TableLayout
+                android:layout_width="250sp"
+                android:layout_height="match_parent"
+                android:background="@color/fons_blau1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvSaldoCol21"
+                        android:layout_width="100sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:paddingLeft="2sp"
+                        android:singleLine="true"
+                        android:text="@string/coste_quiniela"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvSaldoCol22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="2sp"
+                        android:text="0,00 €"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvSaldoCol31"
+                        android:layout_width="100sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:paddingLeft="20sp"
+                        android:singleLine="true"
+                        android:text="@string/apuesta_simple"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvSaldoCol32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="10sp"
+                        android:text="14"
+                        android:textSize="@dimen/textQuiniela" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvSaldoCol41"
+                        android:layout_width="100sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:paddingLeft="20sp"
+                        android:singleLine="true"
+                        android:text="@string/apuesta_doble"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvSaldoCol42"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="10sp"
+                        android:text="1"
+                        android:textSize="@dimen/textQuiniela" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvSaldoCol51"
+                        android:layout_width="100sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:paddingLeft="20sp"
+                        android:singleLine="true"
+                        android:text="@string/apuesta_triple"
+                        android:textSize="@dimen/textQuiniela" />
+
+                    <TextView
+                        android:id="@+id/tvSaldoCol52"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="10sp"
+                        android:text="0"
+                        android:textSize="@dimen/textQuiniela" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/tvSaldoCol71"
+                        android:layout_width="100sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:paddingStart="2sp"
+                        android:text="@string/num_encerts"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tvSaldoCol72"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="10sp"
+                        android:text="5"
+                        android:textSize="@dimen/textQuiniela"
+                        android:textStyle="bold" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/tvSaldoCol81"
+                        android:layout_width="100sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:paddingStart="2sp"
+                        android:text="@string/premi_encerts"
+                        android:textSize="@dimen/textQuiniela"
+                        android:background="@color/fons_blau5"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tvSaldoCol82"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="2sp"
+                        android:text="0,00 €"
+                        android:textSize="@dimen/textQuiniela"
+                        android:background="@color/fons_blau5"
+                        android:textStyle="bold" />
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/tvSaldoCol91"
+                        android:layout_width="100sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:paddingStart="2sp"
+                        android:text="@string/premi_quiniela"
+                        android:textSize="@dimen/textQuiniela"
+                        android:background="@color/fons_blau5"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tvSaldoCol92"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="2sp"
+                        android:text="0,00 €"
+                        android:textSize="@dimen/textQuiniela"
+                        android:background="@color/fons_blau5"
+                        android:textStyle="bold" />
+                </TableRow>
+            </TableLayout>
+            <LinearLayout
+                android:id="@+id/llBoteEstat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tvBote"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="1"
+                    android:background="@color/colorBote"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:padding="2sp"
+                    android:text="@string/premi_bote"
+                    android:textSize="@dimen/estatQuiniela"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tvEstatQuiniela"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_weight="1"
+                    android:background="@color/fons_blau2"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:padding="2sp"
+                    android:text="@string/estat_bloquejada"
+                    android:textSize="@dimen/estatQuiniela"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llXarxesSocials"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <include layout="@layout/inc_xarxes_socials" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

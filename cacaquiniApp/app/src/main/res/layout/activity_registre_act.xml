@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clQuini"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fons_blau3"
+    tools:context=".RegistreActivity">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llCapcalera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="2sp">
+
+            <LinearLayout
+                android:id="@+id/llLogo"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="horizontal"
+                android:padding="2sp">
+                <ImageView
+                    android:id="@+id/ivLogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/ic_logo_foreground" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCapcaleraSup"
+                android:layout_width="280sp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvTitol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="start|center_vertical"
+                    android:padding="2sp"
+                    android:text="@string/titolApp"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvNomUsuari"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="right|bottom"
+                    android:padding="2sp"
+                    android:text="@string/nom_usuari"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llFoto"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="horizontal"
+                android:padding="2sp">
+                <ImageView
+                    android:id="@+id/ivUsuari"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/ic_usuari_foreground" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTitolReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10sp">
+
+            <TextView
+                android:id="@+id/tvTitolRegistre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center_horizontal"
+                android:text="@string/titol_resitre"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5sp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvNickName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nickname_reg"
+                    android:textSize="@dimen/labelForm"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/etNickName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:textSize="@dimen/valueForm" />
+
+                <ImageView
+                    android:id="@+id/ivCanviarUsuari"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@android:drawable/ic_menu_set_as" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/trNom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvNomUsuariReg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nom_usuari_reg"
+                    android:textSize="@dimen/labelForm"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etNomUsuariReg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:textSize="@dimen/valueForm" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/trCognoms"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tvCogomUsuariReg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cognoms_usuari_reg"
+                    android:textSize="@dimen/labelForm"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etCogNomUsuariReg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:textSize="@dimen/valueForm" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/trEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvEmailReg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email_reg"
+                    android:textSize="@dimen/labelForm"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etEmailReg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:text=""
+                    android:textSize="@dimen/valueForm"/>
+            </TableRow>
+            <TableRow
+                android:id="@+id/trPerfil"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvPerfil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perfil_usuari"
+                    android:textSize="@dimen/labelForm"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etPerfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:textSize="@dimen/valueForm" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/trSaldo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvSaldoReg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/saldo_actual"
+                    android:textSize="@dimen/labelForm"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etSaldoReg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:textSize="@dimen/valueForm" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10sp">
+
+            <Button
+                android:id="@+id/btCancellar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/labelButton"
+                android:text="@string/boto_cancellar" />
+            <Button
+                android:id="@+id/btGuardar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="@dimen/labelButton"
+                android:text="@string/boto_guardar" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

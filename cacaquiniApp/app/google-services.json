@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "743116806584",
+    "firebase_url": "https://cacaprojectsapps-cacaquini.firebaseio.com",
+    "project_id": "cacaprojectsapps-cacaquini",
+    "storage_bucket": "cacaprojectsapps-cacaquini.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743116806584:android:5a9be7e8bd0d04decc974d",
+        "android_client_info": {
+          "package_name": "es.xuan.cacaquini"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743116806584-tpfpvdtut81lc01b3udfsp0d43i6mm2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIf1nJb4ZV-wTC4rTNrO7rH5SmH9eF3zA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743116806584-tpfpvdtut81lc01b3udfsp0d43i6mm2i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

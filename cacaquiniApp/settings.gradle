@@ -1,0 +1,2 @@
+rootProject.name='CACAQuini'
+include ':app'
