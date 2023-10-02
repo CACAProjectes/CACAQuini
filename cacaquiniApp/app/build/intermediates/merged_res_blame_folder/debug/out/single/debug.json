@@ -1,0 +1,646 @@
+[
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_logo_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_logo_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_twitter.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_twitter.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_fcvb_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_fcvb_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_gmail_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_gmail_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_twitter_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_twitter_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\layout_inc_xarxes_socials.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\layout\\inc_xarxes_socials.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_fcvb_round.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_fcvb_round.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_usuari_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_usuari_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_logo_background.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\drawable\\ic_logo_background.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_registre_act.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\layout\\activity_registre_act.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_facebook_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_facebook_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_facebook_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_facebook_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_usuari.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_usuari.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_refrescar.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_refrescar.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_logo_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_logo_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_facebook.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_facebook.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_instagram_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_instagram_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_gmail.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_gmail.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_logo_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_logo_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_refrescar_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_refrescar_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_fcvb.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_fcvb.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_refrescar.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_refrescar.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_facebook_round.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_facebook_round.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_logo_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_logo_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_twitter.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_twitter.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_instagram_round.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_instagram_round.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_twitter.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_twitter.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_facebook.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_facebook.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_gmail.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_gmail.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_refrescar_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_refrescar_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_twitter_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_twitter_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_facebook_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_facebook_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_instagram.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_instagram.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_usuari_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_usuari_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_refrescar.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_refrescar.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_twitter.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_twitter.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_instagram_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_instagram_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_usuari_round.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_usuari_round.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_refrescar_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_refrescar_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_instagram.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_instagram.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_refrescar_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_refrescar_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_logo_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_logo_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_usuari_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_usuari_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_gmail_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_gmail_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\drawable-nodpi_example_appwidget_preview.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\drawable-nodpi\\example_appwidget_preview.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_usuari.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_usuari.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_fcvb_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_fcvb_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_usuari.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_usuari.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_logo.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_fcvb_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_fcvb_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_gmail.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_gmail.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_instagram.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_instagram.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_facebook.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_facebook.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_instagram_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_instagram_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_logo_round.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_logo_round.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_gmail_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_gmail_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_twitter_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_twitter_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_gmail_round.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_gmail_round.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_logo.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_logo.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_facebook_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_facebook_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_facebook_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_facebook_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_fcvb_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_fcvb_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_instagram_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_instagram_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_refrescar.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_refrescar.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_instagram_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_instagram_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_fcvb_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_fcvb_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_usuari_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_usuari_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_gmail.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_gmail.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_usuari.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_usuari.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_facebook_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_facebook_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_refrescar_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_refrescar_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_gmail_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_gmail_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_twitter.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_twitter.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_facebook.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_facebook.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_twitter_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_twitter_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_facebook_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_facebook_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_gmail_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_gmail_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_instagram_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_instagram_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_fcvb_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_fcvb_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_fcvb.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_fcvb.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_gmail.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_gmail.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_refrescar_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_refrescar_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_gmail_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_gmail_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_logo_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_logo_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_usuari_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_usuari_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_facebook_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_facebook_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_fcvb.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_fcvb.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_instagram.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_instagram.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_facebook.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_facebook.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_facebook_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_facebook_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_refrescar_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_refrescar_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_logo_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_logo_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_logo.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_fcvb_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_fcvb_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_instagram_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_instagram_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_fcvb_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_fcvb_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_instagram_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_instagram_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_facebook_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_facebook_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_gmail_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_gmail_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_twitter_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_twitter_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_fcvb.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_fcvb.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_usuari.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_usuari.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_usuari_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_usuari_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_refrescar_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_refrescar_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_twitter_round.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_twitter_round.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_usuari_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_usuari_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_usuari_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_usuari_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_gmail_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_gmail_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_usuari_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_usuari_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_facebook.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_facebook.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_refrescar.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_refrescar.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_twitter.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_twitter.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_twitter_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_twitter_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_twitter_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_twitter_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_gmail_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_gmail_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_instagram.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_instagram.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_usuari_background.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\drawable\\ic_usuari_background.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_twitter_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_twitter_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_instagram.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_instagram.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_logo_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_logo_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_fcvb.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_fcvb.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_usuari.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_usuari.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_twitter_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_twitter_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_usuari_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_usuari_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_refrescar_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_refrescar_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_refrescar.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_refrescar.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_fcvb.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_fcvb.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_twitter_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_twitter_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_logo_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_logo_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_instagram_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_instagram_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_logo_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-mdpi\\ic_logo_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_refrescar_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_refrescar_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_logo.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_logo.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_refrescar_round.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_refrescar_round.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_gmail.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_gmail.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_fcvb_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_fcvb_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_instagram_foreground.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_instagram_foreground.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_fcvb_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_fcvb_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_gmail_round.png.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-hdpi\\ic_gmail_round.png"
+    },
+    {
+        "merged": "C:\\Projectes\\CACAQuini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_logo.xml.flat",
+        "source": "C:\\Projectes\\CACAQuini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_logo.xml"
+    }
+]

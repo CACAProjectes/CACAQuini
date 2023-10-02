@@ -1,0 +1,78 @@
+es/xuan/cacaquini/logs/LogCACA.java
+ es.xuan.cacaquini.logs.LogCACA
+es/xuan/cacaquini/varis/Constants.java
+ es.xuan.cacaquini.varis.Constants
+es/xuan/cacaquini/model/EscrutiniBD.java
+ es.xuan.cacaquini.model.EscrutiniBD
+es/xuan/cacaquini/model/UsuariSimple.java
+ es.xuan.cacaquini.model.UsuariSimple
+es/xuan/cacaquini/model/Quiniela.java
+ es.xuan.cacaquini.model.Quiniela
+es/xuan/cacaquini/model/PartitMig.java
+ es.xuan.cacaquini.model.PartitMig
+es/xuan/cacaquini/model/Usuari.java
+ es.xuan.cacaquini.model.Usuari
+es/xuan/cacaquini/files/SPCloud.java
+ es.xuan.cacaquini.files.SPCloud
+ es.xuan.cacaquini.files.SPCloud$1
+es/xuan/cacaquini/files/FilesDao.java
+ es.xuan.cacaquini.files.FilesDao
+es/xuan/cacaquini/model/EstatQuiniela.java
+ es.xuan.cacaquini.model.EstatQuiniela
+es/xuan/cacaquini/files/FilesCloud.java
+ es.xuan.cacaquini.files.FilesCloud
+ es.xuan.cacaquini.files.FilesCloud$1
+ es.xuan.cacaquini.files.FilesCloud$2
+ es.xuan.cacaquini.files.FilesCloud$3
+ es.xuan.cacaquini.files.FilesCloud$4
+ es.xuan.cacaquini.files.FilesCloud$5
+ es.xuan.cacaquini.files.FilesCloud$6
+es/xuan/cacaquini/BuildConfig.java
+ es.xuan.cacaquini.BuildConfig
+es/xuan/cacaquini/RegistreActivity.java
+ es.xuan.cacaquini.RegistreActivity
+ es.xuan.cacaquini.RegistreActivity$1
+ es.xuan.cacaquini.RegistreActivity$2
+ es.xuan.cacaquini.RegistreActivity$3
+es/xuan/cacaquini/model/Saldo.java
+ es.xuan.cacaquini.model.Saldo
+es/xuan/cacaquini/model/QuinielaMig.java
+ es.xuan.cacaquini.model.QuinielaMig
+es/xuan/cacaquini/migracio/VBMigracio.java
+ es.xuan.cacaquini.migracio.VBMigracio
+es/xuan/cacaquini/gestio/GestorApostes.java
+ es.xuan.cacaquini.gestio.GestorApostes
+es/xuan/cacaquini/varis/Utils.java
+ es.xuan.cacaquini.varis.Utils
+es/xuan/cacaquini/varis/Serializar.java
+ es.xuan.cacaquini.varis.Serializar
+es/xuan/cacaquini/view/Pantalla.java
+ es.xuan.cacaquini.view.Pantalla
+ es.xuan.cacaquini.view.Pantalla$1
+ es.xuan.cacaquini.view.Pantalla$10
+ es.xuan.cacaquini.view.Pantalla$11
+ es.xuan.cacaquini.view.Pantalla$12
+ es.xuan.cacaquini.view.Pantalla$13
+ es.xuan.cacaquini.view.Pantalla$2
+ es.xuan.cacaquini.view.Pantalla$3
+ es.xuan.cacaquini.view.Pantalla$4
+ es.xuan.cacaquini.view.Pantalla$5
+ es.xuan.cacaquini.view.Pantalla$6
+ es.xuan.cacaquini.view.Pantalla$7
+ es.xuan.cacaquini.view.Pantalla$8
+ es.xuan.cacaquini.view.Pantalla$9
+es/xuan/cacaquini/gestio/GestorUsuari.java
+ es.xuan.cacaquini.gestio.GestorUsuari
+es/xuan/cacaquini/model/Perfil.java
+ es.xuan.cacaquini.model.Perfil
+es/xuan/cacaquini/varis/Base64.java
+ es.xuan.cacaquini.varis.Base64
+ es.xuan.cacaquini.varis.Base64$OutputStream
+es/xuan/cacaquini/migracio/VBMigracioQuini.java
+ es.xuan.cacaquini.migracio.VBMigracioQuini
+es/xuan/cacaquini/MainActivity.java
+ es.xuan.cacaquini.MainActivity
+ es.xuan.cacaquini.MainActivity$1
+ es.xuan.cacaquini.MainActivity$2
+ es.xuan.cacaquini.MainActivity$3
+ es.xuan.cacaquini.MainActivity$4
